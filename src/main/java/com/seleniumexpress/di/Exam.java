@@ -12,9 +12,9 @@ public class Exam {
 	  Student stu = context.getBean("student",Student.class);
 	  stu.displayStudentInfo();
 	  
-	
+	  Student dilipN = context.getBean("dilip",Student.class);
+	  dilipN.displayStudentInfo();
 	  
-	  Student ashish = context.getBean("ashish",Student.class);
-	  ashish.displayStudentInfo();
+	
   }
 }

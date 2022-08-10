@@ -7,16 +7,14 @@ http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 
 
 <bean id="student" class="com.seleniumexpress.di.Student">
-
-<property name="studentName" value="vikash pathak"/>
-<property name="id" value="1"/>
+<constructor-arg name="studentName" value="vikash pathak" type="java.lang.String"/>
+<constructor-arg name="id" value="12"/>
 </bean>
 
 
-<bean id="ashish" class="com.seleniumexpress.di.Student">
-
-<property name="studentName" value="ashish pathak"/>
-<property name="id" value="2"/>
+<bean id="dilip" class="com.seleniumexpress.di.Student">
+<constructor-arg name="id" value="12" type="int"/>
 </bean>
+
 
 </beans>
